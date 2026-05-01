@@ -9,7 +9,7 @@ I'm self-taught and learning to code from scratch — no prior programming backg
 This repo isn't just a solutions dump — it's meant to document my journey. As I improve, I plan to revisit old problems and commit updated versions of my solutions, so the history reflects how my thinking and skills evolve over time.
 
 ## Structure
-
+```
 kattis-solutions/
 ├── go/
 │   └── <problem-name>/
@@ -17,7 +17,7 @@ kattis-solutions/
 ├── python/
 │   └── <problem-name>.py
 └── README.md
-
+```
 Each Go solution lives in its own folder (required by Go's package structure). Other languages are organized as flat files within their language folder.
 
 ## Tracking Progress
