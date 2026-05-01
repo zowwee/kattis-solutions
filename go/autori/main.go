@@ -1,23 +1,23 @@
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"strings"
 )
 
 func main() {
-    var x string
+	var x string
 
-    fmt.Scanln(&x)
+	fmt.Scanln(&x)
 
-    parts := strings.Split(x, "-")
+	parts := strings.Split(x, "-")
 
-    Initials := ""
+	Initials := ""
 
-    for _, part := range parts {
-      a := string(part[0])
-      Initials += a
-    }
+	for _, part := range parts {
+		a := string(part[0])
+		Initials += a
+	}
 
-    fmt.Println(Initials)
+	fmt.Println(Initials)
 }
